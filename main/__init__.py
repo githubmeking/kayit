@@ -21,7 +21,7 @@ AUTH = 5920592740
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
-userbot = Client("saverestricted", session_string=SESSION, api_hash=API_HASH, api_id=API_ID) 
+userbot = Client("saverestricted", session=SESSION, api_hash=API_HASH, api_id=API_ID) 
 
 try:
     userbot.start()
